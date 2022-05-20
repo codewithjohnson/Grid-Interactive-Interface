@@ -43,7 +43,7 @@ options.forEach((e)=>{
             gridContents.classList.toggle('fifty'); 
             size.textContent = value;
         }
-        else if (value === '170px'){
+        else if (value === '100px'){
             gridContents.classList.remove('auto');
             gridContents.classList.remove('max-content');
             gridContents.classList.remove('min-content');
