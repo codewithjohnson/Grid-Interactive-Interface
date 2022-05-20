@@ -23,14 +23,14 @@ body{
 /* MAIN CONTAINER */
 /* THE CONTAINER HAS THREE MAJOR SUB CONTAINER */
 h3{
-    opacity: 0.6;
+    opacity: 0.5;
     margin-bottom:15px;
 }
 .container{
     display:flex;
     justify-content:space-between;
     background-color: #eee;
-    width: 90%;
+    width: 80%;
     box-shadow: 10px 10px 10px 5px  rgba(0, 0, 0, 0.24) ;
 }
 
@@ -38,7 +38,7 @@ h3{
 
 .property{
     padding: 20px 10px;
-    width: 50%;
+    width: 40%;
    
 }
 
@@ -78,7 +78,7 @@ h3{
 /* ============= SECOND SUB CONTAINER=====================*/
 .result{
     padding: 20px 10px;
-    width: 50%;
+    width: 60%;
   
 }
 
