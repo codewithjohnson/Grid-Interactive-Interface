@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="property">
+            <p class="property__title">CSS Property:</p>
+
+            <div class="property__content">
+                <p class="property__content--title">
+                    grid-auto-columns:
+                </p>
+
+                <div class="property__content--options">
+
+                    <div class="one">
+                        <input type="radio" name="options" id="option1" class="option">
+                        <label for="option1">max-content</label>
+                    </div>
+
+                    <div class="two">
+                        <input type="radio" name="options" class="option" id="option2">
+                        <label for="option2">auto</label>
+                    </div>
+
+                    <div class="three">
+                        <input type="radio" class="option" name="options" id="option3">
+                        <label for="option3">min-content</label>
+                    </div>
+
+                    <div class="four">
+                        <input type="radio" class="option" name="options" id="option4">
+                        <label for="option4">50px</label>
+                    </div>
+
+                    <div class="five">
+                        <input type="radio" class="option" name="options" id="option5">
+                        <label for="option5">170px</label>
+                    </div>
+
+                    <div class="six">
+                        <input type="radio" class="option" name="options" id="option6">
+                        <label for="option6">30%</label>
+                    </div>
+
+    
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="result">
+            <p class="result__title">Result:</p>
+
+            <div class="result__content">
+                <div class="content">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                    <div class="item item5">5</div>
+                    <div class="item item6">6</div>
+                </div>
+            </div>
+
+
+            <div class="code">
+                <p class="code__title">CSS Code:</p>
+                <div class="code__content">
+                   <code>
+                       .content{
+                   </code> <br>
+                   <code>display : grid;</code> <br>
+                   <code>grid-auto-columns:<span class="size"></span>;</code>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
