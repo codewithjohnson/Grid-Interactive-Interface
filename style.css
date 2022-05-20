@@ -22,6 +22,10 @@ body{
 
 /* MAIN CONTAINER */
 /* THE CONTAINER HAS THREE MAJOR SUB CONTAINER */
+h3{
+    opacity: 0.6;
+    margin-bottom:15px;
+}
 .container{
     display:flex;
     justify-content:space-between;
